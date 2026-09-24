@@ -200,6 +200,22 @@ La carpeta `docs/` contiene las respuestas escritas de los Módulos 1, 3 y 4 de 
 
 ---
 
+## Colección Postman
+
+En la carpeta `postman/` hay una colección completa con todos los endpoints y **tests automáticos** (happy path, reglas de negocio, seguridad y errores):
+
+- `Gestion_Polizas_API.postman_collection.json`
+- `Gestion_Polizas_Local.postman_environment.json`
+
+Impórtalos en Postman y selecciona el environment *"Gestión Pólizas - Local"*, o córrela por línea de comandos con Newman:
+
+```bash
+npx newman run postman/Gestion_Polizas_API.postman_collection.json \
+    -e postman/Gestion_Polizas_Local.postman_environment.json
+```
+
+Más detalles en `postman/README.md`.
+
 ## Consola H2
 
 Disponible en `http://localhost:8080/h2-console`
