@@ -1,6 +1,9 @@
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
+
+### Documentacion de la prueba (no se versiona) ###
+docs/
 !**/src/main/**/target/
 !**/src/test/**/target/
 

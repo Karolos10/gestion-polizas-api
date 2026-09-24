@@ -196,8 +196,6 @@ com.segurosbolivar.polizas
 └── config        → DataSeeder (datos de ejemplo)
 ```
 
-La carpeta `docs/` contiene las respuestas escritas de los Módulos 1, 3 y 4 de la prueba.
-
 ---
 
 ## Colección Postman
